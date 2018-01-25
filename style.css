@@ -1,0 +1,19 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#clock {
+	width: 200px;
+	height: 200px;
+	margin: 50px auto;
+	position: relative;
+	cursor: move;
+}
+
+#s, #m , #h{
+	display: block;
+	position: absolute;
+	left: 57px;
+	top: 0;
+}
